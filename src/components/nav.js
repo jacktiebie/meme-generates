@@ -1,11 +1,15 @@
-import React from 'react'
-import logo from '../images/logo.png'
+import React from "react"
+import Logo from '../images/logo.png'
 
 export default function Nav() {
     return (
-       <nav className='nav'>
-           <img src={logo}  alt='logo' className='nav-img' />
-            <h1 className='nav-title'>Meme Generator</h1>
-       </nav>
+        <header className="header">
+            <img 
+                src={Logo}
+                className="header--image"
+            />
+            <h2 className="header--title">Meme Generator</h2>
+            <h4 className="header--project">React Course - Project 3</h4>
+        </header>
     )
 }
